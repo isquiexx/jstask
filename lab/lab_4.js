@@ -50,7 +50,6 @@ if (coffeeName) {
 // 4
 const coffes = ["Latte", "Cappuccino", "Americano"];
 const prices = [1.5, 1, 2];
-
 const updatedPrices = prices.map(price => price + 0.5); 
 
 coffes.forEach((name, index) => {
@@ -93,5 +92,6 @@ let sumForEach = 0;
 numbers.forEach(num => sumForEach += num ** 3);
 
 const sumReduce = numbers.reduce((acc, num) => acc + (num ** 3), 0);
+
 
 console.log(sumReduce);
